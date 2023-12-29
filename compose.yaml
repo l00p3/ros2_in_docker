@@ -1,0 +1,8 @@
+services:
+  my_humble:
+    container_name: my_humble
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+        - ".:/home/ros_ws"
